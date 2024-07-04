@@ -10,29 +10,29 @@ function NotFound() {
   return <h2>404 - Page Not Found</h2>;
 }
 
-function Navigation() {
-  return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/coins">Coins</Link>
-        </li>
-        <li>
-          <Link to="/exchanges">Exchanges</Link>
-        </li>
-      </ul>
-    </nav>
-  );
-}
+// function Navigation() {
+//   return (
+//     <nav>
+//       <ul>
+//         <li>
+//           <Link to="/">Home</Link>
+//         </li>
+//         <li>
+//           <Link to="/coins">Coins</Link>
+//         </li>
+//         <li>
+//           <Link to="/exchanges">Exchanges</Link>
+//         </li>
+//       </ul>
+//     </nav>
+//   );
+// }
 
 function App() {
   return (
     <Router>
       <Header />
-    <Navigation /> {/* Open for change */}
+    // <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/coins" element={<Coins />} />
