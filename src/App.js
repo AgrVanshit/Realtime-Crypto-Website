@@ -32,7 +32,7 @@ function App() {
   return (
     <Router>
       <Header />
-    // <Navigation />
+      {/* <Navigation /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/coins" element={<Coins />} />
